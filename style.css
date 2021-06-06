@@ -1,0 +1,94 @@
+/****************/
+/* Balises HTML */ /* Cela nous servira de base pour la mise en page de toutes les pages */
+/****************/
+
+body
+{
+    background: #0d0d0d;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+header
+{
+    background: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17.5px;
+    display: flex;
+}
+a
+{
+    color: black;
+    text-decoration:none; /* Cela permet de retirer les soulgnements en-dessous des liens */
+}
+h1
+{
+    font-weight: bold;
+}
+div
+{
+    font-size: 20px;
+}
+
+/******************/
+/* Classes images */
+/******************/
+
+.img
+{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+.img1
+{
+    height: 45px;
+    margin-left: 1.75%;
+    margin-top: 0.8%;
+    margin-bottom: 0.25%;
+}
+.img2
+{
+    margin-left: 0.25%;
+    padding-top: 1%;
+    margin-bottom: 0.25%;
+}
+
+
+/******************/
+/* Classes marges */
+/******************/
+
+.margin1
+{
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.margin2
+{
+    position: absolute;
+    z-index: 2;
+    margin: 0 auto;
+    left: 2.5%;
+    top: 55%;
+}
+
+/**********************************/
+/* Classes alignement et position */
+/**********************************/
+
+.flex
+{
+    display: flex;
+}
+.right
+{
+    display: flex;
+    margin-left: auto;
+    margin-right: 15px;
+}
+.width
+{
+    width: 30%;
+}

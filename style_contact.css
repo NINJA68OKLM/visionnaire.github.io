@@ -1,0 +1,96 @@
+/****************/
+/* Balises HTML */
+/****************/
+
+p
+{
+    margin: 0px;
+}
+
+/**********/
+/* Marges */
+/**********/
+
+.margin5
+{
+    margin-top: 1.40%;
+    margin-left: 5%;
+}
+.margin6
+{
+    margin-top: 20px;
+}
+.top
+{
+    margin-top: 15px;
+}
+.rightmargin
+{
+    width: 50%;
+    margin-top: 2.5%;
+    margin-left: 60vh;
+}
+.right1
+{
+    width: 50%;
+    margin-top: 2.5%;
+    margin-left: 86vh;
+}
+
+/**********/
+/* Largeur */
+/**********/
+
+.width6
+{
+    width: 45vw;
+}
+
+/***************/
+/* Disposition */
+/***************/
+
+.block
+{
+    display: block;
+}
+.columnright
+{
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-top: 20px;
+}
+.flex1
+{
+    display: flex;
+    margin-left: 2.5%;
+}
+
+/**************/
+/* Formulaire */
+/**************/
+
+.formulaire
+{
+    width: 67%;
+    margin-top: 30px;
+    padding-left: 1.25vh;
+    padding-top: 1.25vh;
+    padding-bottom: 1.25vh;
+    border: solid 2.5px white;
+}
+.champ 
+{
+    margin: 3px;
+}
+.message 
+{
+    height: 80px;
+    margin-top: 3px;
+}
+label 
+{
+    display: inline-block;
+    width: 100px;
+}

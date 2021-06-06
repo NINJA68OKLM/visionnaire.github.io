@@ -1,0 +1,20 @@
+main
+{
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+}
+.photo2
+{
+    width: 100%;
+}
+.block
+{
+    display: block;
+    margin-top: 7.5px;
+}
+.grid
+{
+    display: inline-grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+}

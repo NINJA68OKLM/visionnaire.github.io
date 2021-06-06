@@ -1,0 +1,186 @@
+/****************/
+/* Balises HTML */
+/****************/
+
+main
+{
+    margin-left: 2.5%;
+}
+h
+{
+    margin: 0px;
+}
+p
+{
+    margin: 0px;
+}
+img
+{
+    vertical-align:middle;
+}
+
+/******************/
+/* Classes images */
+/******************/
+
+.img3
+{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+
+.img4
+{
+    height: 45px;
+    margin-left: 1.75%;
+    margin-top: 0.8%;
+    margin-bottom: 0.25%;
+}
+.img5
+{
+    margin-left: 0.25%;
+    padding-top: 1%;
+    margin-bottom: 0.25%;
+}
+.img6
+{
+    width: 40%;
+    height: 40%;
+    margin: 0px;
+}
+.img7
+{
+    width: 22.5%;
+    height: 22.5%;
+    margin: 0px;
+}
+.img8
+{
+    width: 100%;
+}
+
+/******************/
+/* Texte en gras */
+/******************/
+
+.bold
+{
+    font-weight: bold;
+}
+
+/**********/
+/* Marges */
+/**********/
+
+.align
+{
+    vertical-align: baseline;
+}
+.margin0
+{
+    margin-top: 2px;
+}
+.margin3
+{
+    margin-top: 20px;
+}
+.margin4
+{
+    margin-left: 10%;
+}
+.marginleft
+{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.marginleft1
+{
+    margin-left: 2px;
+}
+.margintop
+{
+    margin-top: 20x;
+}
+.marginbottom
+{
+    margin-bottom: 10px;
+}
+.line
+{
+    display: inline-flex;
+}
+
+/************/
+/* Largeurs */
+/************/
+
+.width2
+{
+    width: 45vw;
+    margin-top: 20px;
+    margin-right: 5%;
+}
+.width3
+{
+    width: 40vw;
+}
+.width4
+{
+    width: 90%;
+    margin-top: 2.5%;
+}
+.width5
+{
+    width: 50vw;
+}
+
+/******************/
+/* Positionnement */
+/******************/
+
+.block /* disposition en bloc */
+{
+    display: block;
+}
+.block2
+{
+    display: block;
+    margin-left: 5px;
+}
+.block3
+{
+    display: block;
+    margin-left: 10%;
+}
+.flex /* flex pour disposer les éléments sur une ligne et les espacer automatiquement afin de les adapter aux différents types d'écrans */
+{
+    display: flex;
+    justify-content: space-between;
+}
+.flexline /* flex pour disposer les éléments sur la ligne d'où le "line" *//* aligne svg et texte avec espacement */
+{
+    display: flex;
+}
+.grid
+{
+    width: 90%;
+    display: inline-grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+}
+
+/*************************/
+/* Contour des icones svg*/
+/*************************/
+
+.border
+{
+    border: 3px solid white;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+}
